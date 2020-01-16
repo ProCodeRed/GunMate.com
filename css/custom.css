@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,600,700&display=swap');
+.bg-none{background: transparent !important;}
+.bg-nav-spl{background-color: #200c00; opacity: 0.9;}
+.bg-dark{background-color: black !important;}
+.ml-50{margin-left: 50px;}
+.nav-item a{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: auto;
+    font-weight: 600;
+}
+#price{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.banner{
+    position: relative;
+    background: url('../images/background-1.png');
+    background-size: 105% 100%;
+}
+.plank{
+    position: relative;
+    background: url('../images/plank.png');
+    background-size: cover;
+    top: -55;
+    /* height: 27vh; */
+}
+img.hang-rope{z-index: 1; height: 60px;}
+#rope1{
+    padding-left: 40px;
+}
+#rope2{
+    padding-right: 80px;
+}
+a.text-style-1{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.plank .nav-link{padding: 5px;}
+
+.hook-img{
+    margin-right: 100px;
+    height: 5vh;
+    position: relative;
+    z-index: 1;
+}
+.tab-1{
+    position: relative;
+    top: -55px;
+}
+.log-2 {
+    width: 55vw;
+    position: relative;
+    top: -15;
+}
+
+.z-index-1{z-index: 1;}
+.rightside{
+    background: url('../images/bg1.png');
+    position: relative;
+    background-size: cover;
+}
+.rightside p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.rightside p:nth-child(2){
+    border-bottom: 2px solid #00c08a;
+}
+.bg2{
+    background: url('../images/bg-2.png');
+    position: relative;
+    background-size: cover;
+}
+.product-img{
+    height: 150px;
+    width: 150px;
+}
+.product-groups {
+    position: relative;
+    top: -15px;
+}
+.price-bg{
+    background: url('../images/price-box.png');
+    background-size: cover;
+    position: relative;
+}
+.starimg{
+    margin: auto;
+    width: 100%;
+    text-align: end;
+    border-bottom: 2px solid #00c08a;
+}
+.pricerates span {
+    position: relative;
+    top: -30px;
+    left: 145px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}
+.pricerates button{
+    background:transparent;
+    outline: none;
+    padding: 0;
+}
+p.tab-opt-20{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+p.tab-opt-13{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+.nav-tabs .nav-link {background-color: #000; color: #fff;}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{background-color: #fff; color: #00c08a !important;}
+.card:hover, .card:focus{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.green-bottom{
+    background: url('../images/green-card-bottom.png');
+    background-size: cover;
+    position: relative;
+}
+.text-1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.span-inGreen{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 12px;
+}
+.reviews{
+    width: 80%;
+}
+.card-groups{
+    justify-content: space-evenly;
+}
+
+.paymentsec{
+    background: url('../images/plank-foter.png');
+    background-size: 105% 100%;
+    position: relative;
+}
+input.border-0.bg-white {
+    width: 319px;
+}
