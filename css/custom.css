@@ -1,3 +1,9 @@
+*{box-sizing: border-box;}
+body{
+    padding: 0;
+    margin:0;
+    line-height: unset;
+}
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,600,700&display=swap');
 .bg-none{background: transparent !important;}
 .bg-nav-spl{background-color: #200c00; opacity: 0.9;}
@@ -17,8 +23,9 @@
 .banner{
     position: relative;
     background: url('../images/background-1.png');
-    background-size: 105% 100%;
+    background-size: 107% 79%;
 }
+
 .plank{
     position: relative;
     background: url('../images/plank.png');
@@ -53,6 +60,7 @@ a.text-style-1{
 .tab-1{
     position: relative;
     top: -55px;
+    margin-bottom: -55px;
 }
 .log-2 {
     width: 55vw;
@@ -150,11 +158,69 @@ p.tab-opt-13{
     justify-content: space-evenly;
 }
 
-.paymentsec{
-    background: url('../images/plank-foter.png');
-    background-size: 105% 100%;
+.logwood-pay{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
     position: relative;
+    top: 25px;
+    margin: 0px 250px;
 }
-input.border-0.bg-white {
-    width: 319px;
+.paymentsec {
+    background: url(../images/plank-foter.png);
+    background-size: cover;
+    position: relative;
+    height: 70px;
 }
+
+input.pay-input {
+    width: 90%;
+    padding: 2px 4px;
+    border-radius: 3px 0px 0px 3px;
+    border:none;
+    outline:none;
+}
+button.pay-btn{
+    width: 10%;
+    outline: none;
+}
+
+
+
+.headings{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.lostKeyHeading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    /* line-height: 1.2; */
+}
+footer a:active,
+footer a.active,
+footer a:focus,
+footer a:hover{
+    text-decoration: none;
+    color: #00c08a;
+}
+
+footer li{
+    list-style-type: none;
+}
+.social{font-size: 25px;}
