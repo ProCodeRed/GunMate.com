@@ -52,73 +52,95 @@
     <div class="banner">
         <div class="container">
             <div class="d-lg-flex justify-content-between">
-                <img id="rope1" class="hang-rope image-fluid" src="images/rope.png" alt="">
-                <img id="rope2" class="hang-rope image-fluid" src="images/rope.png" alt="">
+                <img id="rope1" class="hang-rope img-fluid" src="images/rope.png" alt="">
+                <img id="rope2" class="hang-rope img-fluid" src="images/rope.png" alt="">
             </div>
             <div class="plank">
                 <div class="row pt-lg-4 pr-lg-5 pl-lg-5">
-                    <div class="col">
-                        <img class="image-fluid" src="images/logo-main.png" alt="">
+                    <div class="col-6 col-sm-6 col-lg-5">
+                        <img class="img-fluid" src="images/logo-main.png" alt="">
                     </div>
-                    <div class="col">
-                        <img class="image-fluid" src="images/promo.png" alt="">
+                    <div class="col-6 col-sm-6 col-lg-4">
+                        <img class="img-fluid" src="images/promo.png" alt="">
                     </div>
-                    <div class="col-lg-2">
-                        <img class="image-fluid" src="images/call.png" alt="">
+                    <div class="d-none d-xl-block col-lg-2">
+                        <img class="img-fluid" src="images/call.png" alt="">
                         <a class="text-white small">96 160 601 294</a><br>
-                        <img class="image-fluid" src="images/message.png" alt="">
+                        <img class="img-fluid" src="images/message.png" alt="">
                         <a class="text-white small text-decoration-none " href="mailto:info@gunmate.com?Subject=Hello%20again" target="_top">info@gunmate.com</a>
                     </div>
-                    <div class="col-lg-1 text-end pt-3">
-                        <img class="image-fluid" src="images/bullry.png" alt="">
+                    <div class="d-none d-xl-block col-lg-1 text-end pt-3">
+                        <img class="img-fluid" src="images/bullry.png" alt="">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12 col-lg-7 ml-50">
+                  <!-- -----------------------------for mobile and medium screen devices -->
+                  <div class="col d-xl-none ml-3">
+                    <div class="btn-group">
+                      <button class="btn bg-nav-spl text-success border-0 " type="button">
+                        Home
+                      </button>
+                      <button type="button" class="btn bg-nav-spl text-success border-0 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="Home">
+                        <a class="dropdown-item active text-success text-uppercase font-weight-bold bg-light" href="#">home</a>
+                        <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">shopes</a>
+                        <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">safes</a>
+                        <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">blog</a>
+                        <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">cases</a>
+                        <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">cameras</a>
+                        <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">accessories</a>
+                        <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">contact</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -----------------------------for mobile and medium screen devices code ends -->
+                    <div class="col-sm-12 col-lg-7 ml-50 d-none d-xl-block">
                       <ul class="nav justify-content-between bg-nav-spl rounded">
-                          <li class="nav-item">
+                          <li class="nav-item py-lg-1">
                             <a class="nav-link active text-style-1 text-success" href="#">home</a>
                           </li>
-                          <li class="nav-item">
+                          <li class="nav-item py-lg-1">
                             <a class="nav-link text-style-1" href="#">shopes</a>
                           </li>
-                          <li class="nav-item">
+                          <li class="nav-item py-lg-1">
                             <a class="nav-link text-style-1" href="#">safes</a>
                           </li>
-                          <li class="nav-item">
+                          <li class="nav-item py-lg-1">
                             <a class="nav-link text-style-1" href="#">cases</a>
                           </li>
-                          <li class="nav-item">
+                          <li class="nav-item py-lg-1">
                             <a class="nav-link text-style-1" href="#">cameras</a>
                           </li>
-                          <li class="nav-item">
+                          <li class="nav-item py-lg-1">
                             <a class="nav-link text-style-1" href="#">accessories</a>
                           </li>
-                          <li class="nav-item">
+                          <li class="nav-item py-lg-1">
                             <a class="nav-link text-style-1" href="#">blog</a>
                           </li>
-                          <li class="nav-item">
+                          <li class="nav-item py-lg-1">
                             <a class="nav-link text-style-1" href="#">contact</a>
                           </li>
                       </ul>
                   </div>
-                  <div class="col-lg-4 rounded">
-                    <form class="form-inline justify-content-end ">
+                  <div class="col col-lg-4 rounded">
+                    <form class="form-inline justify-content-end">
                       <div class="input-group">
-                        <input type="text" class="form-control bg-nav-spl border-0" placeholder="Guns Cases.." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <input type="text" class="form-control bg-nav-spl border-0" placeholder="Guns, Cases.." aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
-                          <button class="btn btn-outline-secondary bg-nav-spl border-0" type="button"><img src="images/search.png" alt=""></button>
+                          <button class="btn bg-nav-spl border-0" type="button"><img src="images/search.png" alt=""></button>
                         </div>
                       </div>
                     </form>
                   </div>
               </div>
-              <div class="row justify-content-end hook-img">
+              <div class="d-none d-xl-block row justify-content-end hook-img">
                   <img class="image-fluid" src="images/hook.png" alt="">
               </div>
           </div>
           <div class="row tab-1 justify-content-center">
-              <div class="col-lg-9">
+              <div class="col-12 col-lg-9 px-0">
                   <ul class="nav nav-tabs border-0 position-relative z-index-1" id="myTab" role="tablist">
                     <li class="nav-item">
                       <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><p class="m-0 p-0 text-uppercase tab-opt-20">Top selling</p><p class="m-0 p-0 text-uppercase small tab-opt-13">products</p></a>
@@ -132,8 +154,8 @@
                     <div class="tab-content" id="myTabContent">
                       <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                           <div class="bg2">
-                            <div class="row pl-3">
-                                <div class="col-lg-4">
+                            <div class="row pl-lg-3">
+                                <div class="col-6 col-lg-4">
                                   <div class="card border-0">
                                     <img class="card-img-top img-fluid product-img m-auto" src="images/product1.png" alt="Card image cap">
                                     <div class="card-body pb-0">
@@ -154,7 +176,7 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class=" col-6 col-lg-4">
                                   <div class="card border-0" >
                                     <img class="card-img-top img-fluid product-img m-auto" src="images/product2.png" alt="Card image cap">
                                     <div class="card-body pb-0">
@@ -175,7 +197,7 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-6 col-lg-4">
                                   <div class="card border-0" >
                                     <img class="card-img-top img-fluid product-img m-auto" src="images/product3.png" alt="Card image cap">
                                     <div class="card-body pb-0">
@@ -196,7 +218,7 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-6 col-lg-4">
                                   <div class="card border-0">
                                     <img class="card-img-top img-fluid product-img m-auto" src="images/product4.png" alt="Card image cap">
                                     <div class="card-body pb-0">
@@ -217,7 +239,7 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-6 col-lg-4">
                                   <div class="card border-0">
                                     <img class="card-img-top img-fluid product-img m-auto" src="images/product5.png" alt="Card image cap">
                                     <div class="card-body pb-0">
@@ -238,7 +260,7 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-6 col-lg-4">
                                   <div class="card border-0">
                                     <img class="card-img-top img-fluid product-img m-auto" src="images/product1.png" alt="Card image cap">
                                     <div class="card-body pb-0">
@@ -265,7 +287,7 @@
                       <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <div class="bg2">
                           <div class="row pl-3">
-                              <div class="col-lg-4">
+                              <div class="col-6 col-lg-4">
                                 <div class="card border-0">
                                   <img class="card-img-top img-fluid product-img m-auto" src="images/product1.png" alt="Card image cap">
                                   <div class="card-body pb-0">
@@ -286,7 +308,7 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-lg-4">
+                              <div class="col-6 col-lg-4">
                                 <div class="card border-0" >
                                   <img class="card-img-top img-fluid product-img m-auto" src="images/product2.png" alt="Card image cap">
                                   <div class="card-body pb-0">
@@ -307,7 +329,7 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-lg-4">
+                              <div class="col-6 col-lg-4">
                                 <div class="card border-0" >
                                   <img class="card-img-top img-fluid product-img m-auto" src="images/product3.png" alt="Card image cap">
                                   <div class="card-body pb-0">
@@ -328,7 +350,7 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-lg-4">
+                              <div class="col-6 col-lg-4">
                                 <div class="card border-0">
                                   <img class="card-img-top img-fluid product-img m-auto" src="images/product4.png" alt="Card image cap">
                                   <div class="card-body pb-0">
@@ -349,7 +371,7 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-lg-4">
+                              <div class="col-6 col-lg-4">
                                 <div class="card border-0">
                                   <img class="card-img-top img-fluid product-img m-auto" src="images/product5.png" alt="Card image cap">
                                   <div class="card-body pb-0">
@@ -370,7 +392,7 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="col-lg-4">
+                              <div class="col-6 col-lg-4">
                                 <div class="card border-0">
                                   <img class="card-img-top img-fluid product-img m-auto" src="images/product1.png" alt="Card image cap">
                                   <div class="card-body pb-0">
@@ -398,39 +420,92 @@
                   </div>
                   <img class="img-fluid log-2" src="images/log.png" alt="">
                 </div>
-                <div class="col-lg-2 right-side-mr">
+                <div class="col-12 col-lg-2 right-side-mr px-0 px-lg-3">
                   <div class="rightside">
-                    <div class="px-4 py-3">
-                      <p class="p-0 m-0 text-uppercase">why</p>
-                      <p class="small p-0 m-0 text-uppercase">gunmate</p>
+                    <div class="px-5 py-3 px-lg-4 py-lg-3">
+                      <p class="p-lg-0 m-0 text-uppercase">why</p>
+                      <p class="small p-lg-0 m-0 text-uppercase">gunmate</p>
                     </div>
-                    <div class="reasons">
-                      <div class="row justify-content-center py-lg-2"><img src="images/3steps.png" alt=""></div>
-                      <div class="row justify-content-center py-lg-2"><img src="images/moneyback.png" alt=""></div>
-                      <div class="row justify-content-center py-lg-2"><img src="images/warranty.png" alt=""></div>
-                      <div class="row justify-content-center py-lg-2"><img src="images/fire-upto.png" alt=""></div>
-                      <div class="row justify-content-center py-lg-2"><img src="images/kids.png" alt=""></div>
-                      <div class="row justify-content-center py-lg-2"><img src="images/500.png" alt=""></div>
-                      <div class="row justify-content-center py-lg-2"><img src="images/24.png" alt=""></div>
+                    <div class="reasons row m-auto px-3 px-lg-0">
+                        <div class="col-3 col-lg-12 text-center py-2 py-lg-3 m-auto">
+                          <img class="img-fluid" src="images/3steps.png" alt="">
+                        </div>
+                        <div class="col-3 col-lg-12 text-center py-2 py-lg-3 ">
+                        <img class="img-fluid" src="images/moneyback.png" alt="">
+                        </div>
+                        <div class="col-3 col-lg-12 text-center py-2 py-lg-3 ">
+                          <img class="img-fluid" src="images/warranty.png" alt="">
+                        </div>
+                        <div class="col-3 col-lg-12 text-center py-2 py-lg-3 ">
+                          <img class="img-fluid" src="images/fire-upto.png" alt="">
+                        </div>
+                        <div class="col-3 col-lg-12 text-center py-2 py-lg-3">
+                          <img class="img-fluid" src="images/kids.png" alt="">
+                        </div>
+                        <div class="col-3 col-lg-12 text-center py-2 py-lg-3">
+                          <img class="img-fluid" src="images/500.png" alt="">
+                        </div>
+                        <div class="col-3 col-lg-12 text-center py-2 py-lg-3 m-auto">
+                          <img class="img-fluid" src="images/24.png" alt="">
+                        </div>
+                      <!-- <div class="row justify-content-center py-lg-2">
+                          <div class="col-lg-12 text-center">
+                            <img src="images/3steps.png" alt="">
+                          </div>
+                      </div>
+                      <div class="row justify-content-center py-lg-2">
+                          <div class="col-lg-12 text-center">
+                            <img src="images/moneyback.png" alt="">
+                          </div>
+                      </div>
+                      <div class="row justify-content-center py-lg-2">
+                          <div class="col-lg-12 text-center">
+                            <img src="images/warranty.png" alt="">
+                          </div>
+                      </div>
+                      <div class="row justify-content-center py-lg-2">
+                          <div class="col-lg-12 text-center">
+                            <img src="images/fire-upto.png" alt="">
+                          </div>
+                      </div>
+                      <div class="row justify-content-center py-lg-2">
+                          <div class="col-lg-12 text-center">
+                            <img src="images/kids.png" alt="">
+                          </div>
+                      </div>
+                      <div class="row justify-content-center py-lg-2">
+                          <div class="col-lg-12 text-center">
+                            <img src="images/500.png" alt="">
+                          </div>
+                      </div>
+                      <div class="row justify-content-center py-lg-2">
+                          <div class="col-lg-12 text-center">
+                            <img src="images/24.png" alt="">
+                          </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
               </div>
               <!-- ----------------------------- -->
-              <div class="reviews">
-                  <div class="row justify-content-between px-5 mx-3">
-                      <p class="text-uppercase text-white">reviews and ratings</p>
-                      <img src="images/write-a-review.png" alt="">
+              <div class="reviews m-auto">
+                  <div class="row ">
+                      <div class="col-6 px-0 py-2 py-lg-0 align-self-center">
+                        <p class="text-uppercase text-white m-0">reviews and ratings</p>
+                      </div>
+                      <div class="col-6 px-0 py-2 py-lg-0">
+                        <img src="images/write-a-review.png" alt="">
+                      </div>
                   </div>
                   <div class="row card-groups py-3">
-                    <div class="col-3 bg-white">
+                    <div class="col-12 col-lg-3 bg-white my-2 my-lg-0">
                       <div class="cards">
                         <div class="row justify-content-between px-3 py-2">
                           <img src="images/green-quote.png" alt="">
                           <span class="text-1 text-capitalize">22 march,2020</span>
                         </div>
                         <div class="row px-3">
-                          <p class="text-center m-0 text-1">Very easy to use. Good to use. Protective.Dummy content area.Very easy to use. Safe, Protective.Dummy content area.Protective.Dummy content </p>
+                          <p class="m-0 text-1">Very easy to use. Good to use. Protective.Dummy content area.Very easy to use. Safe, Protective.Dummy content area.Protective.Dummy content </p>
                         </div>
                         <div class="py-2">
                           <span>
@@ -445,10 +520,10 @@
                       </div>
                       <div class="row">
                         <img class="w-100" src="images/green-card-bottom.png" alt="">
-                        <span class="text-capitalize span-inGreen text-white">mark levis, gunDealer</span>
+                        <span class="text-capitalize span-inGreen text-white mt-4 m-lg-2">mark levis, gunDealer</span>
                       </div>
                     </div>
-                    <div class="col-3 bg-white">
+                    <div class="col-12 col-lg-3 bg-white my-2 my-lg-0">
                       <div class="cards">
                         <div class="row justify-content-between px-3 py-2">
                           <img src="images/green-quote.png" alt="">
@@ -470,10 +545,10 @@
                       </div>
                       <div class="row">
                         <img class="w-100" src="images/green-card-bottom.png" alt="">
-                        <span class="text-capitalize span-inGreen text-white">Tom harris, gunDealer</span>
+                        <span class="text-capitalize span-inGreen text-white  mt-4 m-lg-2">Tom harris, gunDealer</span>
                       </div>
                     </div>
-                    <div class="col-3 bg-white">
+                    <div class="col-12 col-lg-3 bg-white my-2 my-lg-0">
                       <div class="cards">
                         <div class="row justify-content-between px-3 py-2">
                           <img src="images/green-quote.png" alt="">
@@ -495,13 +570,13 @@
                       </div>
                       <div class="row">
                         <img class="w-100" src="images/green-card-bottom.png" alt="">
-                        <span class="text-capitalize span-inGreen text-white">mark levis, gunDealer</span>
+                        <span class="text-capitalize span-inGreen text-white mt-4 m-lg-2">mark levis, gunDealer</span>
                       </div>
                   </div>
               </div>
         </div>
     </div>
-    <div class="paymentsec">
+    <div class="d-none d-lg-block paymentsec">
       <div class="row logwood-pay">
         <div class="col-lg-4 p-0">
           <form action="" class="ml-4">
@@ -522,10 +597,23 @@
         </div>
       </div>
     </div>
+    <!-- -----------------------------for small devices ------------------------->
+    <div class="d-lg-none paymentsec-sm-devices m-auto">
+      <div class="row m-auto">
+        <div class="col text-center m-auto"><img src="images/paypal.png" alt=""></div>
+        <div class="col text-center m-auto"><img src="images/visa.png" alt=""></div>
+        <div class="col text-center m-auto"><img src="images/discover.png" alt=""></div>
+        <div class="col text-center m-auto"><img src="images/mastercard.png" alt=""></div>
+        <div class="col text-center m-auto"><img src="images/gotrust.png" alt=""></div>
+        <div class="col text-center m-auto"><img src="images/eway.png" alt=""></div>
+        <div class="col text-center m-auto"><img src="images/bbb.png" alt=""></div>
+      </div>
+    </div>
+    <!-- -----------------------------small devices code ends------------------------------ -->
     <footer class="bg-dark">
         <div class="container">
-          <div class="row py-3 mx-4">
-            <div class="col-lg-2">
+          <div class="row py-lg-3 mx-lg-4">
+            <div class="d-none d-lg-block col-lg-2">
                 <div class="py-lg-2">
                   <img class="pr-1" src="images/location-icon.png" alt="">
                   <span class="text-white text-uppercase headings">contact us</span>
@@ -544,7 +632,7 @@
                     <a href=""><i class=" social fab fa-youtube"></i></a>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="d-none d-lg-block col-lg-3">
                 <div class="py-lg-2">
                   <img class="p-1" src="images/green-up-arrow.png" alt="">
                   <span class="text-white text-uppercase headings">site map</span>
@@ -573,7 +661,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-2 d-lg-flex flex-lg-column justify-content-center">
+            <div class="d-none d-lg-block col-lg-2 d-lg-flex flex-lg-column justify-content-center">
                 <div class="border-bottom">
                     <ul class="p-0">
                         <li><a href="#">accessories</a></li>
@@ -588,7 +676,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-5">
+            <div class="d-none d-lg-block col-lg-5">
                 <div class="row justify-content-end">
                     <img src="images/map.png" alt="">
                 </div>
@@ -598,6 +686,89 @@
             </div>
         </div>
       </div>
+      <!-- --------------------------------for small devices code footer ---------------------------- -->
+      <div class="row d-lg-none text-center m-auto">
+        <div class="col-12 ">
+          <div class="row">
+              <div class="col-6">
+                <div class="">
+                  <img class="pr-1" src="images/location-icon.png" alt="">
+                  <span class="text-white text-uppercase headings">contact us</span>
+                </div>
+                <div class="">
+                    <p class="text-white text-capitalize footer-text text-break">
+                        gun mate suite 447,<br>121 lygon street<br> carlton<br> victoria 3053    
+                    </p>
+                    <p class="text-white text-capitalize footer-text">ABN: 96 160 601 294</p>
+                </div>
+                <div>
+                  <img class="img-fluid" src="images/message.png" alt="">
+                <a class="text-white small text-decoration-none " href="mailto:info@gunmate.com?Subject=Hello%20again" target="_top">info@gunmate.com</a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="">
+                  <img class="p-1" src="images/green-up-arrow.png" alt="">
+                  <span class="text-white text-uppercase headings">site map</span>
+                </div>
+                <div>
+                  <div class="btn-group">
+                    <button class="btn bg-nav-spl text-success border-0 " type="button">
+                      Home
+                    </button>
+                    <button type="button" class="btn bg-nav-spl text-success border-0 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="Home">
+                      <a class="dropdown-item active text-success text-uppercase font-weight-bold bg-light" href="#">home</a>
+                      <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">shopes</a>
+                      <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">safes</a>
+                      <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">blog</a>
+                      <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">cases</a>
+                      <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">cameras</a>
+                      <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">accessories</a>
+                      <a class="dropdown-item text-uppercase font-weight-bold bg-light" href="#">contact</a>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h1 class="text-white text-uppercase headings">get in touch</h1>
+                  <a href=""><i class=" social fab fa-facebook-square"></i></a>
+                  <a href=""><i class=" social fab fa-twitter"></i></a>
+                  <a href=""><i class=" social far fa-envelope"></i></a>
+                  <a href=""><i class=" social fab fa-youtube"></i></a> 
+                </div>
+                <div>
+                  <img class="img-fluid" src="images/call.png" alt="">
+                  <a class="text-white small">96 160 601 294</a>
+                </div>
+              </div>
+          </div>
+     </div>
+     <div class="col-12 d-lg-none">
+        <div class="row">
+          <img class="w-100 m-auto" src="images/map.png" alt="">
+        </div>
+        <div class="row m-auto">
+            <div class="col-6 m-auto">
+                <div class="row">
+                    <div class="col-1">
+                      <img src="images/key.png" alt="">
+                    </div>
+                    <div class="col-9 pl-1">
+                        <p class="lostKeyHeading text-white text-uppercase m-0">lost key</p>
+                        <p class="small text-white m-0 text-capitalize">we can get you another one</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+              <img src="images/logo1.png" alt="">
+            </div>
+        </div>
+     </div>
+
+      </div>
+            <!-- --------------------------------for small devices code footer ends ---------------------------- -->
   </footer>
   
     

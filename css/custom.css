@@ -63,7 +63,7 @@ a.text-style-1{
     margin-bottom: -55px;
 }
 .log-2 {
-    width: 55vw;
+    width: 100%;
     position: relative;
     top: -15;
 }
@@ -142,6 +142,7 @@ p.tab-opt-13{
 .text-1{
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
+    line-height: normal;
 }
 
 .span-inGreen{
@@ -171,6 +172,11 @@ p.tab-opt-13{
     background-size: cover;
     position: relative;
     height: 70px;
+}
+.paymentsec-sm-devices {
+    background: url(../images/plank-small.png);
+    background-size: contain;
+    padding: 30px 20px;
 }
 
 input.pay-input {
