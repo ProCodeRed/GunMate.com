@@ -108,13 +108,15 @@ a.text-style-1{
 }
 .pricerates span {
     position: relative;
-    top: -30px;
-    left: 145px;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #000;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    top: -24px;
 }
 .pricerates button{
     background:transparent;
@@ -160,18 +162,20 @@ p.tab-opt-13{
 }
 
 .logwood-pay{
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
     justify-items: center;
-    text-align: center;
+    /* text-align: center; */
     position: relative;
     top: 25px;
-    margin: 0px 250px;
+    /* margin: 0px 250px; */
 }
 .paymentsec {
     background: url(../images/plank-foter.png);
-    background-size: cover;
+    background-size: 100% auto;
     position: relative;
-    height: 70px;
+    height: 60px;
 }
 .paymentsec-sm-devices {
     background: url(../images/plank-small.png);
